@@ -1,0 +1,378 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: oldlace;
+   
+    
+}
+header{
+  background-color: rgb(9, 53, 53); 
+padding: 30px;
+font-size: 1.9em;
+font-weight: 500;
+position: sticky;
+top:0;
+left:0;
+z-index: 999;
+box-shadow: 1px 1px .7px 3px rgb(13, 107, 107);
+text-shadow: 2px 2px .7px rgb(214, 196, 196);
+
+}
+.team{
+  
+     margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+    
+}
+.team a{
+    width: 300px;
+    height: 400px;  
+    text-decoration: none; 
+    background-color:white;
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px oldlace;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px .9px rgb(243, 210, 210) ;
+}
+.max{
+margin-top: 20px;
+
+}
+.max img{
+   height: 250px;
+    width: 50%; 
+    margin-left: 50px;
+}
+.max p{
+    font-size: 1.3em;
+    font-weight: 500;
+    background-color: aqua;
+    padding-left: 50px;
+}
+.max h4{
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 50px; 
+    height: 40px; 
+}
+.container{
+    width: 80%;
+margin-left: 100px;
+margin-top: 40px;
+}
+.concontainer{
+font-size: 1.3em;
+font-weight: 500;
+background-color: transparent;
+border: 2px solid transparent;
+border-bottom-color: black;
+text-align: left;
+width: 100%;
+cursor: pointer;
+}
+.concontainer:after{
+    content: "\002B";
+    float: right;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.des{
+    width: 80%;
+   display: none;
+  
+}
+
+.des p{
+    background-color: beige;  
+}
+.image img{
+    width: 100%;
+    height: 130px;
+   margin-top: 30px;
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.link{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 450px;
+    margin-top: 30px;
+    position: relative;
+}
+.link a {
+    text-decoration: none;
+}
+.link a img{
+    width: 100%;
+    height: 300px;
+    padding: 2px;
+}
+.link a p{
+    font-size: 1em;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.link a span{
+    font-size: 1.6em;
+    font-size: 500;
+}
+.link .blue{
+    position: absolute;
+    top:315px;
+    left: 100px;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50px;
+    border: .3px solid black;
+    font-size: 1.3em;
+    font-weight: 500;
+
+
+}
+.link .pink{
+    position: absolute;
+    top:315px;
+    left: 125px;
+    width: 15px;
+    height: 15px;
+    background-color: pink;
+    border-radius: 50px;
+    border: .3px solid black;
+    font-size: 1.3em;
+    font-weight: 500;
+
+
+}
+.link .red{
+    position: absolute;
+    top:315px;
+    left: 150px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50px;
+    border: .3px solid black;
+    font-size: 1.3em;
+    font-weight: 500;
+
+
+}
+footer{
+    background-color: rgb(24, 23, 23);
+    color: aliceblue;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+
+@media (max-width:480px){
+
+body{
+padding: 0;
+margin: 0;
+
+}
+
+header{
+    background-color: rgb(95, 59, 226);
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 1.1em;
+    font-weight: 500;
+    position: fixed;
+    top:0;
+
+}
+.team{
+    
+    
+    height: 200px;
+    margin-top: 80px;
+   display: grid;
+   grid-template-columns: 130px 130px 130px 130px 130px 130px;
+
+    
+}
+.team a{
+    width: 120px;
+    height: 200px;
+    background-color: aliceblue;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none; 
+
+   
+}
+.max img{
+    max-width:50%;
+    height: 150px;
+   padding-left: 10px;
+margin-left: 30px;
+margin-top: 10px;
+}
+
+.max p{
+padding-left: 10px; 
+background-color: aqua;
+
+
+}
+.max h4{
+   margin-top: 15px;
+    padding-left: 7px;
+
+}
+.container{
+    width: 80%;
+margin-left: 5px;
+margin-top: 140px;
+}
+.concontainer{
+font-size: 1em;
+font-weight: 500;
+background-color: transparent;
+border: 2px solid transparent;
+border-bottom-color: black;
+text-align: left;
+width: 100%;
+cursor: pointer;
+}
+.concontainer:after{
+    content: "\002B";
+    float: right;
+    font-weight: 500;
+    font-size: 1em;
+}
+.des{
+    width: 80%;
+   display: none;
+}
+
+.des p{
+    background-color: beige;  
+}
+.image img{
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.contant{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.link{
+    background-color: antiquewhite;
+    width: 154px;
+    height: 450px;
+    margin-top: 10px;
+    position: relative;
+}
+.link a {
+    text-decoration: none;
+}
+.link a img{
+    width: 100%;
+    height: 300px;
+    padding: 2px;
+}
+.link a p{
+    font-size: 1em;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.link a span{
+    font-size: 1.6em;
+    font-size: 500;
+    background-color: antiquewhite;
+}
+.link .blue{
+    position: absolute;
+    top:315px;
+    left: 20px;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50px;
+    border: .3px solid black;
+    font-size: 1.3em;
+    font-weight: 500;
+
+
+}
+.link .pink{
+    position: absolute;
+    top:315px;
+    left: 45px;
+    width: 15px;
+    height: 15px;
+    background-color: pink;
+    border-radius: 50px;
+    border: .3px solid black;
+    font-size: 1.3em;
+    font-weight: 500;
+
+
+}
+.link .red{
+    position: absolute;
+    top:315px;
+    left: 70px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50px;
+    border: .3px solid black;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+footer{
+    margin-top: 150px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
